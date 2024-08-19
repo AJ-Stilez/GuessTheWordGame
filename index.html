@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+    
+
+    <h1>Guess-D-Word</h1>
+
+    <div id="levelScoreContainer">
+        <div id="levelDisplay">
+            <p id="level"></p>
+            <span id="levelNumber"> LEVEL: 1 </span>
+        </div>
+    
+        <p id="score">POINTS: 0</p>
+    </div>
+ 
+
+    <div id="clueBox">
+        <p> CONSCISE DEFINITION:</p>
+        <p id="clueText"></p>
+    </div>
+           
+        
+   
+        <div id="display" class="userDisplay">
+     
+        </div>
+ 
+    
+
+    <!-- <div class="buttontapContainer">
+        <button id="submitBtn" class="buttonTap" onclick="correctAns()">SUBMIT</button>
+        
+    </div> -->
+    
+
+
+    <div class="inputLettersContainer">
+        <div class="grid1">
+            <button onclick="inputLetters(`Q`)" class="inputBtns">Q</button> 
+            <button onclick="inputLetters(`W`)" class="inputBtns">W</button> 
+            <button onclick="inputLetters(`E`)" class="inputBtns">E</button> 
+            <button onclick="inputLetters(`R`)" class="inputBtns">R</button> 
+            <button onclick="inputLetters(`T`)" class="inputBtns">T</button> 
+            <button onclick="inputLetters(`Y`)" class="inputBtns">Y</button> 
+            <button onclick="inputLetters(`U`)" class="inputBtns">U</button> 
+            <button onclick="inputLetters(`I`)" class="inputBtns">I</button> 
+            <button onclick="inputLetters(`O`)" class="inputBtns">O</button> 
+            <button onclick="inputLetters(`P`)" class="inputBtns">P</button> 
+        </div>
+
+        <div class="grid2">
+            <button onclick="inputLetters(`A`)" class="inputBtns">A</button> 
+            <button onclick="inputLetters(`S`)" class="inputBtns">S</button> 
+            <button onclick="inputLetters(`D`)" class="inputBtns">D</button> 
+            <button onclick="inputLetters(`F`)" class="inputBtns">F</button> 
+            <button onclick="inputLetters(`G`)" class="inputBtns">G</button> 
+            <button onclick="inputLetters(`H`)" class="inputBtns">H</button> 
+            <button onclick="inputLetters(`J`)" class="inputBtns">J</button> 
+            <button onclick="inputLetters(`K`)" class="inputBtns">K</button> 
+            <button onclick="inputLetters(`L`)" class="inputBtns">L</button>
+        </div>
+        <div class="grid3">
+            <button onclick="inputLetters(`Z`)" class="inputBtns">Z</button> 
+            <button onclick="inputLetters(`X`)" class="inputBtns">X</button> 
+            <button onclick="inputLetters(`C`)" class="inputBtns">C</button> 
+            <button onclick="inputLetters(`V`)" class="inputBtns">V</button> 
+            <button onclick="inputLetters(`B`)" class="inputBtns">B</button> 
+            <button onclick="inputLetters(`N`)" class="inputBtns">N</button> 
+            <button onclick="inputLetters(`M`)" class="inputBtns">M</button> 
+            <button class="deleteBtn" onclick="deleteBtn()">❌</button>
+        </div>
+        
+    </div>
+
+    <div class="navBtnsContainer">
+        <!-- <button class="navBtn" id="quitBtn" onclick="restart()">
+           Restart
+        </button> -->
+        <button class="navBtn" id="skipBtn" onclick="skip()">
+            Skip
+        </button>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
